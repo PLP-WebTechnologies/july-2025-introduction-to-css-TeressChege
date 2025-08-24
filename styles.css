@@ -1,0 +1,80 @@
+/* Reset some defaults */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #333; /* border demonstration */
+}
+
+/* Navigation */
+.navbar {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background: #555;
+}
+
+/* Container Section */
+.container {
+  margin: 20px;              
+  padding: 20px;             
+  border: 2px solid #ccc;    
+  background: white;         
+}
+
+/* Card */
+.card {
+  background: #fafafa;
+  border: 1px solid #999;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background: #6045a0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #333333;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  margin-top: 20px;
+}
